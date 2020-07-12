@@ -2,7 +2,7 @@ import os
 from datetime import timedelta 
 from googleapiclient.discovery import build
 import re
-api_key='AIzaSyBjYP1qj6ONoZ78ZyW7GTPgF_ZFzD5RQ3g'
+api_key='PLACE YOUR YOUTUBE DATA API KEY'
 
 youtube=build('youtube','v3',developerKey=api_key)
 
